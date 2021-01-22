@@ -1,0 +1,6 @@
+numCol,Codes,Nom,Coord
+0,"[{'type': 'CR-CI-CH', 'value': '0087-110288-00'}, {'type': 'UIC8', 'value': '87110288'}, {'type': 'external_code', 'value': 'OCE87110288'}]", (Joué-lès-Tours),"{'lat': '47.34836', 'lon': '0.660652'}"
+1,"[{'type': 'CR-CI-CH', 'value': '0087-279166-00'}, {'type': 'UIC8', 'value': '87279166'}, {'type': 'external_code', 'value': 'OCE87279166'}]", (Niherne),"{'lat': '46.834999', 'lon': '1.565542'}"
+2,"[{'type': 'CR-CI-CH', 'value': '0087-286740-00'}, {'type': 'UIC8', 'value': '87286740'}, {'type': 'external_code', 'value': 'OCE87286740'}]", (Tressin),"{'lat': '50.611568', 'lon': '3.189764'}"
+3,"[{'type': 'CR-CI-CH', 'value': '0087-286781-00'}, {'type': 'UIC8', 'value': '87286781'}, {'type': 'external_code', 'value': 'OCE87286781'}]", (Cysoing),"{'lat': '50.560597', 'lon': '3.211275'}"
+4,"[{'type': 'CR-CI-CH', 'value': '0087-286807-00'}, {'type': 'UIC8', 'value': '87286807'}, {'type': 'external_code', 'value': 'OCE87286807'}]", (Genech),"{'lat': '50.528445', 'lon': '3.220961'}"
