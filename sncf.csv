@@ -1,6 +1,26 @@
-numCol,Codes,Nom,Coord
-0,"[{'type': 'CR-CI-CH', 'value': '0087-110288-00'}, {'type': 'UIC8', 'value': '87110288'}, {'type': 'external_code', 'value': 'OCE87110288'}]", (Joué-lès-Tours),"{'lat': '47.34836', 'lon': '0.660652'}"
-1,"[{'type': 'CR-CI-CH', 'value': '0087-279166-00'}, {'type': 'UIC8', 'value': '87279166'}, {'type': 'external_code', 'value': 'OCE87279166'}]", (Niherne),"{'lat': '46.834999', 'lon': '1.565542'}"
-2,"[{'type': 'CR-CI-CH', 'value': '0087-286740-00'}, {'type': 'UIC8', 'value': '87286740'}, {'type': 'external_code', 'value': 'OCE87286740'}]", (Tressin),"{'lat': '50.611568', 'lon': '3.189764'}"
-3,"[{'type': 'CR-CI-CH', 'value': '0087-286781-00'}, {'type': 'UIC8', 'value': '87286781'}, {'type': 'external_code', 'value': 'OCE87286781'}]", (Cysoing),"{'lat': '50.560597', 'lon': '3.211275'}"
-4,"[{'type': 'CR-CI-CH', 'value': '0087-286807-00'}, {'type': 'UIC8', 'value': '87286807'}, {'type': 'external_code', 'value': 'OCE87286807'}]", (Genech),"{'lat': '50.528445', 'lon': '3.220961'}"
+Nombre,Ville,Lattitude,Longitude,Type,Value
+0,,47.34836,0.660652,CR-CI-CH,0087-110288-00
+1,,46.834999,1.565542,CR-CI-CH,0087-279166-00
+2,,50.611568,3.189764,CR-CI-CH,0087-286740-00
+3,,50.560597,3.211275,CR-CI-CH,0087-286781-00
+4,,50.528445,3.220961,CR-CI-CH,0087-286807-00
+5,,50.603891,3.193467,CR-CI-CH,0087-287219-00
+6,,50.573148,3.20231,CR-CI-CH,0087-287235-00
+7,,50.538127,3.219541,CR-CI-CH,0087-287243-00
+8,,47.219605,0.8811870000000001,CR-CI-CH,0087-644112-HR
+9,,47.394142,0.671523,CR-CI-CH,0087-689737-HR
+10,,0,0,CR-CI-CH,0087-699298-HR
+11,.,27.141247,-3.404382,,
+12,Aachen/Aix la Chapelle,50.767759,6.091215,CR-CI-CH,0080-153452-BV
+13,Abancourt,49.685665,1.77418,CR-CI-CH,0087-313759-00
+14,Abbaretz,47.55523,-1.524196,CR-CI-CH,0087-481614-00
+15,Abbeville,50.102194,1.824486,CR-CI-CH,0087-317362-00
+16,Ablon,48.725377,2.419245,CR-CI-CH,0087-545269-00
+17,Aboncourt,49.261034,6.346529,CR-CI-CH,0087-191403-00
+18,Abrest Mairie,46.098866,3.444789,CR-CI-CH,0087-721944-HR
+19,Accolay-Le-Pont,47.659446,3.713922,CR-CI-CH,0087-677252-HR
+20,Achères-Grand-Cormier,48.955163,2.09194,CR-CI-CH,0087-386052-00
+21,Achères-Ville,48.969341,2.077786,CR-CI-CH,0087-381657-BV
+22,Achiet,50.131685,2.78014,CR-CI-CH,0087-342048-00
+23,Adamswiller Lot. forêt.,48.905629,7.208236,CR-CI-CH,0087-658856-HR
+24,Adamswiller-(Mairie).,48.903847,7.201171,CR-CI-CH,0087-658922-HR
