@@ -11,6 +11,7 @@ class APItools :
         self.my_api_file = my_api_file
         self.authentification = authentification
         self.data = None
+        self.data_sncf = None
 
     def readAPI (self):
         '''
@@ -25,8 +26,7 @@ class APItools :
         with open(self.my_api_file) as my_json_file:
             self.data_sncf = json.load(my_json_file)
             print(type(self.data_sncf))
-
-   
+  
     def printWithPrettyPrint (self):
         pprint.pprint(self.data_sncf)
 
