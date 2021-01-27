@@ -122,9 +122,9 @@ class APItools :
             stylo.writeheader()
             for i in range (len(listOfAreas)):
             #je créé mon dictionnaire pour utiliser le DictWriter, je fais correspondre mes key avec ceux des colonnes définies
-                final_dict={'Nombre':i,'Ville':listOfNames[i], 'Lattitude':listOfLats[i],'Longitude':listOfLongs[i],'Type':listOfCodesTypes[i],'Value':listOfCodesValues[i]}
-                stylo.writerow(final_dict)
-                print(final_dict)
+                self.final_dict={'Nombre':i,'Ville':listOfNames[i], 'Lattitude':listOfLats[i],'Longitude':listOfLongs[i],'Type':listOfCodesTypes[i],'Value':listOfCodesValues[i]}
+                stylo.writerow(self.final_dict)
+                print(self.final_dict)
         
 
         ''' La correction BY Amin/Maria la bikeuse
@@ -158,13 +158,13 @@ class APItools :
         arrivee = "stop_area:OCE:SA:87722025"
         URL = f"https://api.sncf.com/v1/journeys?from={depart}&to={arrivee}"
         #Récupération des données de la requête
-        r = requests.get(URL, auth=(self.authentification, ''))      
-        self.data2 = r.json()
+        self.r = requests.get(URL, auth=(self.authentification, ''))      
+        self.data2 = self.r.json()
 
     def areasSTOPSParisLyon(self):
 
         self.list_arret=[]
-        self.acces_arret = SNCF.data2["journeys"][0]["sections"][1]["stop_date_times"]
+        self.acces_arret = self.data2["journeys"][0]["sections"][1]["stop_date_times"]
         print("\nListe des arrets et de leur temps d'arret :\n")
         for arret in self.acces_arret:
             print(arret["stop_point"]["name"])
