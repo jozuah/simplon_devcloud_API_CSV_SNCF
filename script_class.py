@@ -25,7 +25,6 @@ class APItools :
         #Lire mon Json file
         with open(self.my_api_file) as my_json_file:
             self.data_sncf = json.load(my_json_file)
-            print(type(self.data_sncf))
   
     def printWithPrettyPrint (self):
         pprint.pprint(self.data_sncf)
@@ -60,11 +59,14 @@ class APItools :
         listOfNames=[]
         for local_name in listOfAreas:       
             try:
-                 local_name["name"]
+                listOfNames.append(local_name["name"])
             except :
                 listOfNames.append("")
-            else:
-                listOfNames.append(local_name["name"])
+           # else:
+            #    listOfNames.append(local_name["name"])
+#listOfNames.append(local_name.get("name", "")
+#*listOfNames.append(local_name.get("name", ""))
+#si 'name' existe pas le get retourne '""
 
         #print(listOfNames)   
 

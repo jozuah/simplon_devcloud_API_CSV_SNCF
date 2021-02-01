@@ -3,7 +3,7 @@ import script_class
 import os
 
 class Test_file(unittest.TestCase):
-    '''
+    '''  
     #Test que le fichier exist
     def test_check_file_exist_readAPI(self):
         directory_path = './stop_areas.json' # somepath
@@ -18,7 +18,6 @@ class Test_file(unittest.TestCase):
 
     def test_writeNewDict_return_dict(self):
         self.assertEqual(type(script_class.writeNewDict()),dict)
-
     
     def test_AddNewKeyValuePair(self):
         password = '8d148dd0-f46d-4e1e-9afd-d9a82d40b90e' 
@@ -34,7 +33,6 @@ class Test_file(unittest.TestCase):
         #Je test que my_test renvoie True
         self.assertTrue(my_test)
     
-
     #Cette fonction ne fonctionne pas encore 
     def test_AddNewStopArea(self):
         password = '8d148dd0-f46d-4e1e-9afd-d9a82d40b90e' 
@@ -88,8 +86,7 @@ class Test_file(unittest.TestCase):
         password = '8d148dd0-f46d-4e1e-9afd-d9a82d40b90e' 
         SNCF = script_class.APItools(authentification=password)   
         SNCF.requestAPIParisLyon()
-        self.assertTrue(type(SNCF.data2)==dict)
-    
+        self.assertTrue(type(SNCF.data2)==dict)   
 
     def test_all_stop_points_exists(self):  
         password = '8d148dd0-f46d-4e1e-9afd-d9a82d40b90e' 
